@@ -4,7 +4,7 @@ services:
   image: lokwebapp:v1
   build:
    context: .
-   dockerfile: ashu.dockerfile
+   dockerfile: dockerfile
   container_name: lokwebappdemo
   ports:
    - "8799:80"
