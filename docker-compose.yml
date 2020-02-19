@@ -7,4 +7,4 @@ services:
    dockerfile: ashu.dockerfile
   container_name: lokwebappdemo
   ports:
-   - "8787:80"
+   - "8799:80"
