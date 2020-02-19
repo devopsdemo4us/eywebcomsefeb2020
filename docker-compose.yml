@@ -1,10 +1,10 @@
 version: '3.5'
 services:
- eywebappashu:
-  image: ashueyfebwebapp:v10
+ eywebapplok:
+  image: lokwebapp:v1
   build:
    context: .
    dockerfile: ashu.dockerfile
-  container_name: ashueyc11
+  container_name: lokwebappdemo
   ports:
    - "8787:80"
